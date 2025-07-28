@@ -1,0 +1,43 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #c471ed, #f64f59);
+  margin: 0;
+  padding: 2rem;
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 2rem;
+}
+
+.malla-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1rem;
+}
+
+.card {
+  background-color: #ffffff22;
+  padding: 1rem;
+  border-radius: 12px;
+  backdrop-filter: blur(10px);
+  border: 2px solid #fff3;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.card:hover {
+  background-color: #ffffff55;
+}
+
+.semestre-title {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #ffe0f0;
+}
+
+.course {
+  font-size: 0.9rem;
+  margin: 0.2rem 0;
+}
